@@ -1,0 +1,213 @@
+w/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 11, 2025, 2:36:18 PM
+    Author     : ADMIN
+*/
+
+body {
+    background-color:cyan;
+}
+.registration_form{
+    background-color:#cc99ff;
+        width: 30%;
+        margin: 1em auto;
+        padding: 1.5em;
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px 0px #ccccff;
+}
+input{
+    width: 97%;
+    margin: .5em auto;
+    margin-top: .1em;
+    padding: .5em .2em;  
+    border-radius: 5px;
+    
+}
+label{
+    color:darkgreen;
+    font-size: 1em;
+}
+input[type='submit']{
+    width: 98.5%;
+    color:deeppink;
+    border:none; 
+    padding: .7em 0em;
+}
+input[type='submit']:hover{
+    background-color:#ccccff;
+}
+input:hover{
+    box-shadow: 2px 2px 5px 0px;
+}
+.navbar {
+    background-color:blue;
+    margin: 0px;
+}
+.right-list{
+    text-align: right;
+}
+.right-list li{
+    list-style-type:none;
+    display: inline-block;
+    padding:1em;
+    color: coral;
+}
+.right-list li:hover{
+    background-color: darkorchid;
+    
+}
+
+.title {
+    text-align: center;
+    color:#cc33ff;
+    border-bottom: 5px solid #6c9ae6;
+}
+.alert{
+    color:crimson;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+.left-list{
+    text-align: left;
+    display: inline-block;
+    margin: 0px;
+    width: 80%;
+}
+.left-list li{
+    list-style-type: none;
+    display: inline-block;
+    padding:1em;
+    color:cornflowerblue;
+}
+.left-list li:hover{
+    background-color:cadetblue;
+}
+.logo{
+    background-image: url('nyako.jpg');
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:5px;
+    width:1em;
+    height: 200%; 
+}
+.title{
+    text-align: center;
+    color: chartreuse;
+    border-bottom: .5px solid cyan;
+    padding: 1em;
+}
+
+.alert{
+    color: dodgerblue;
+    text-align: center;
+    font-size: 8em;
+    font-weight: bold;
+}
+
+.container{
+    background-color: darkturquoise;
+    width: 80%;
+    min-height: 70vh;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+    box-shadow: 1px 1px 5px 0px darkturquoise;
+}
+
+.banner{
+    background-image: url('brrrr.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 20vh;
+    width: 100%;
+    color: dodgerblue;
+}
+
+.profile_pic{
+    background-image: url(grrr.jpg);
+    position: relative;
+    z-index: 200;
+    width: 20vh;
+    height: 20vh;
+    background-color: dodgerblue;
+    border-radius: 100px;
+    left: 10vh;
+    top: 5vh;
+    box-shadow: 1px 1px 5px 0px darkviolet;
+}
+.container h2{
+    margin: 0px 0px;
+    position: relative;
+    top: 15vh;
+    left: 32vh;
+    font-size: 2em;
+}
+.post-container{
+    width: 75%;
+    margin: auto;
+    margin-top: 1vh;
+    padding: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+#post_area{
+    width: 100%;
+    resize: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    height: 5em;
+}
+.post{
+    padding: 1em;
+    margin: .25em auto;
+    border: .01em solid;
+    border-color: #116622;
+    border-radius: 15px;
+    color: #116622;
+}
+
+.post-pic{
+    font-weight: bold;
+}
+
+.post-text{
+    padding-left:2em;
+    margin:.5em;
+}
+.action-btn{
+    width: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btns{
+    margin: 20px 10%;
+    scale: 1.4px;
+    border: 0.5px solid;
+    border-radius: 5px;
+    background-color: bisque;
+    min-width: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    margin-left: 21vh;
+}
+.btn-icon{
+    margin-right: 5px;
+}
+.post-text{
+    font-size: larger;
+}
+.pfp{
+    border-radius: 50%;
+}
